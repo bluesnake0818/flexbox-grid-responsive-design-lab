@@ -37,6 +37,7 @@ main {
   flex-direction: column;
   background-color: #ffffff;
   max-width: 300px;
+  font-size: 20px;
 }
 
 img {
@@ -53,23 +54,31 @@ p {
   text-align: center;
 }
 
-#status {
-  font-size: 20px;
-  color:darkgray;
-  text-align: right;
+p#ratings {
+  /* height:10px; */
+  margin-bottom: 5px;
 }
 
-#name {
-  font-size: 20px;
+p#job-title {
+  /* height:10px; */
+  margin-top: 5px;
+}
+
+
+
+h1#name {
+
+  font-size: 24px;
 }
 
 #occupation {
   display: block;
+  font-size: 20px;
   background-color: #e5e5e5;
 }
 
 #brand {
-  font-size: 20;
+  font-size: 20px;
   color: rgb(53, 52, 52);
   display: none;
 }
@@ -102,6 +111,14 @@ p {
   /* align-content: center; */
 }
 
+div#status {
+  font-size: 12px;
+  color:darkgray;
+  text-align: right;
+  justify-content: right;
+  margin: 10px 10px 0 0;
+}
+
 @media only screen and (min-width: 1024px) {
   
   #brand {
@@ -118,4 +135,5 @@ p {
 6. #offer #occupation items vertical center
 7. Imgur image doesn't show
 8. image center using flex commands
+9. why do some items have margin to begin with and others don't when they are both inside Body and Main
 */
