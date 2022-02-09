@@ -177,15 +177,18 @@ div#status {
 
   img {
     margin: 30px 0;
+    align-self: center;
+    order: 1;
   }
 
   h1#name {
     height: 10%;
-    order:6;
+    order:3;
   }
 
   #occupation {
     height: 30%;
+    order: 4;
   }
   
   #brand{
@@ -194,6 +197,9 @@ div#status {
     width: 60%;
     display: contents;
     align-items: right;
+    order: 5;
+    display:flex;
+    flex-wrap: wrap;
   }
 
   #brand > p{
@@ -209,9 +215,11 @@ div#status {
 
   div#status {
     text-align: left;
+    margin: 10px 0 0 10px;
     /* justify-content: left; */
     height: 5%;
     width: 40%;
+    order: 0;
   }
 
   #contact {
@@ -226,6 +234,7 @@ div#status {
 
   #offer {
     width: 60%;
+    order: 6;
     /* order: 6; */
   }
 
