@@ -18,20 +18,17 @@ html {
 
 body {
   background-color: gray;
-  /* grid-template-columns: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%;
-  grid-template-rows: 20% 20% 20% 20% 20%; */
 /* Use a system font, if none are available use an available sans-sarif   font */
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
     Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
-  margin: 0 auto;
+  /* margin: 0 auto; */
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   /* max-width: 700px; */
   font-size: 24px;
-  /* align-items: center; */
-  /* min-height: 100vh; */
+  height: 100vh;
 }
 
 main {
@@ -42,7 +39,7 @@ main {
   /* align-self: center; */
   flex-direction: column;
   background-color: #ffffff;
-  max-height: 500px;
+  height: 500px;
   /* min-width: 300px;
   max-width: 300px; */
   width: 300px;
@@ -86,7 +83,7 @@ p#quote {
 
 
 h1#name {
-
+  text-align: center;
   font-size: 24px;
 }
 
@@ -109,6 +106,10 @@ h1#name {
 
 #contact {
   background-color: #f9f871;
+  display: flex;
+	align-items: center;
+	justify-content: center;
+  height: 10%
   /* margin: 10px 0 10px 0; */
   /* justify-content: space-between; */
   /* align-items: center; */
@@ -123,9 +124,10 @@ h1#name {
 }
 
 #contact > p {
-  width: 50%;
-  height: 26.5px;
+  width: 100%;
+  height: 100%;
   margin: 0;
+  
   /* justify-content: center;
   align-items: center;
   align-self: center;
@@ -162,10 +164,20 @@ div#status {
 @media only screen and (min-width: 1024px) {
   main {
     flex-direction: row;
+    
   }
   #brand {
     display: contents;
   }
+  /* #id {
+    justify-content: space-between;
+  } */
+
+  div#status {
+    text-align: right;
+    justify-content: right;
+  }
+
 }
 
 /*
