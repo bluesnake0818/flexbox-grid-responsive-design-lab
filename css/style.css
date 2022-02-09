@@ -210,8 +210,11 @@ div#status {
     display:flex;
     flex-wrap: wrap;
     /* height: 20%; */
-    margin: 0;
+    margin: 0 -10px 0 10px;
     padding-left: 10px;
+    border-left: 2px solid;
+    border-left-color: #92d97c;
+    
   }
 
   #brand > p{
