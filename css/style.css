@@ -180,38 +180,61 @@ div#status {
   }
 
   h1#name {
-    height: 10%;
+    /* height: 10%; */
     order:3;
+    display: flex;
+    margin: 0;
+    padding-top: 10px;
   }
 
   #occupation {
     width: 60%;
-    height: 30%;
+    /* height: 30%; */
     order: 4;
+    display: flex;
+    align-items: flex-start;
   }
   
+  #occupation > p {
+    margin: 0;
+  }
+
+
   #brand{
-    display: flex;
     width: 60%;
     display: contents;
     align-items: right;
     order: 5;
     display:flex;
     flex-wrap: wrap;
+    /* height: 20%; */
+    margin: 0;
   }
 
   #brand > p{
     /* height: 30%;
     width: 60%; */
-    width: 60%;
     font-size: 12px;
     display: contents;
+    align-items: flex-start;
+    margin: 0;
   }
 
 
   #offer {
     width: 60%;
+    /* height: 10%; */
     order: 6;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  #offer > p {
+    width: 60%;
+    /* height: 100%; */
+    order: 6;
+    margin: 0;
   }
 
 
